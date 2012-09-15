@@ -1,0 +1,4 @@
+*.DS_Store
+ArtFlipSaver.xcodeproj/xcuserdata/
+*.xcuserdatad
+*.swp

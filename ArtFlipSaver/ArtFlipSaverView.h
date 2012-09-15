@@ -8,6 +8,18 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 
+#import <WebKit/WebKit.h>
+
+
 @interface ArtFlipSaverView : ScreenSaverView
+{
+    WebView *webView;
+    IBOutlet NSWindow *optionsPanel;
+}
+
+@property (assign) IBOutlet NSTextField *usernameInput;
+
+- (IBAction) cancelSheetAction: (id)sender;
+- (IBAction) okSheetAction: (id)sender;
 
 @end
