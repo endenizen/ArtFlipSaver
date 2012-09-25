@@ -13,21 +13,7 @@
 		00578CCA15E980AD00E39E40 /* ArtFlipSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00578CC915E980AD00E39E40 /* ArtFlipSaverView.m */; };
 		00578CD115E981E600E39E40 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00578CD015E981E600E39E40 /* WebKit.framework */; };
 		007E73FD15E985DB0036397A /* Options.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007E73FC15E985DB0036397A /* Options.xib */; };
-		00F5323115FF04B900893504 /* ArtFlipSaver.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00578CB615E980AC00E39E40 /* ArtFlipSaver.saver */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		00F5323015FF045E00893504 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "/Users/endenizen/Library/Screen Savers/";
-			dstSubfolderSpec = 0;
-			files = (
-				00F5323115FF04B900893504 /* ArtFlipSaver.saver in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00578CB615E980AC00E39E40 /* ArtFlipSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtFlipSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,7 +126,6 @@
 				00578CB215E980AC00E39E40 /* Headers */,
 				00578CB315E980AC00E39E40 /* Resources */,
 				00578CB415E980AC00E39E40 /* Rez */,
-				00F5323015FF045E00893504 /* CopyFiles */,
 			);
 			buildRules = (
 			);

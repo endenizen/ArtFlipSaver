@@ -15,11 +15,16 @@
 {
     WebView *webView;
     IBOutlet NSWindow *optionsPanel;
+    IBOutlet id usernameInput;
+    IBOutlet id sourceSelector;
+    IBOutlet id rowSlider;
+    IBOutlet id rowLabel;
+    IBOutlet id delaySlider;
+    IBOutlet id delayLabel;
 }
-
-@property (assign) IBOutlet NSTextField *usernameInput;
 
 - (IBAction) cancelSheetAction: (id)sender;
 - (IBAction) okSheetAction: (id)sender;
+- (IBAction) switchSource: (id)sender;
 
 @end
