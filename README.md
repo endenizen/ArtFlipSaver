@@ -3,10 +3,15 @@ ArtFlipSaver
 
 It's like the iTunes album art screensaver, but for Rdio.
 
+Download
+--------
+
+The screensaver is available for download here: https://dl.dropbox.com/u/120686/ArtFlipSaver.saver.zip
+
 Try it out
 ----------
 
-You can see what the screensaver will look like by loading the same website that is loaded in the screensaver right here: [http://artflip.herokuapp.com](http://artflip.herokuapp.com)
+You can see what the screensaver will look like (without downloading) by loading the same website that is loaded in the screensaver right here: [http://artflip.herokuapp.com](http://artflip.herokuapp.com)
 
 It's a website?
 ---------------
